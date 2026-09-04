@@ -1,0 +1,28 @@
+body {
+    color: white;
+    font-weight: 600;
+    background-color: rgb(67, 81, 155);
+    font-family: sans-serif;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image:url(2paisagem.png);
+    background-repeat: no-repeat;
+    background-size: 2170px
+}
+.login {
+    margin-top: 300px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(22, 14, 31); 
+    padding: 20px;
+    background-color: rgb(62, 49, 94);
+    
+}
+.h1 {
+    margin-top: -9px;
+}
+input [type="submit"] {
+   border: 100px;
+}
