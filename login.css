@@ -1,28 +1,61 @@
 body {
     color: white;
     font-weight: 600;
-    background-color: rgb(67, 81, 155);
     font-family: sans-serif;
     font-size: 16px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image:url(2paisagem.png);
+    background-image:url(https://www.enterprisesistemas.com.br/site/wp-content/uploads/2015/11/fundo.jpg);
     background-repeat: no-repeat;
-    background-size: 2170px
+    background-size: 2170px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
 }
 .login {
-    margin-top: 300px;
-    border-style: solid;
-    border-radius: 10px;
-    border-color: rgb(22, 14, 31); 
+    margin-top: 30px;
+    border: none;         
+    outline: none;        
+    border-radius: 4px;
+    box-sizing: border-box;
     padding: 20px;
-    background-color: rgb(62, 49, 94);
+    background-color: rgb(59, 66, 70);
     
 }
-.h1 {
+.aform {
+    border: none;         
+    outline: none;   
+}
+form {
+    background-color: rgb(59, 66, 70);
+    border-style: solid;
+    border-radius: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 240px;
+}
+.texto {
     margin-top: -9px;
+    
 }
 input [type="submit"] {
    border: 100px;
+}
+a {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+  
+.btn:hover {
+    background-color: #0056b3;
 }

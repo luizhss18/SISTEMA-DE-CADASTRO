@@ -3,10 +3,105 @@ body {
     font-weight: 600;
     background-color: rgb(67, 81, 155);
     font-family: sans-serif;
-    font-size: 16px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 7px;
 }
 
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 350px   ;
+}
+ul {
+    text-align: center;
+    display: flex;
+}
+.plinha {
+    margin-left: 200px;
+}
+.slinha {
+    margin-left: -50px;
+}
+.tlinha {
+    margin-left: -120px;
+}
+.qlinha {
+    margin-left: -90px;
+}
 .titulo {
+    text-align: center;
     margin-top: 15px;
     margin-left: 5px;
+    margin-bottom: 5px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+label {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    margin-left: 5px;
+}
+input[type="text"] {
+    align-self: flex-start;
+    margin-left: 5px;
+    padding: 7px;
+}
+select {
+    align-self: flex-start;
+    margin-left: 5px;
+    padding: 7px;
+    padding-right: 50px;
+}
+table {
+    border-radius: 5px;
+    color: black;
+    border-color: black;
+    background-color: rgb(221, 221, 221);
+}
+button {
+    border-radius: 4px;
+    size: 10px;
+}
+.mais {
+    background-color: rgb(81, 255, 81);
+}
+.menos {
+    background-color: rgb(250, 84, 84);
+}
+.celula {
+    padding: 10px;
+    border-radius: 5px;
+}
+.botao {
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    align-self: flex-start;
+}
+.rbotao {
+    background-color: rgb(255, 173, 173);
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    align-self: flex-start;
 }

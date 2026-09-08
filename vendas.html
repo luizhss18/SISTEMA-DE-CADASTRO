@@ -8,17 +8,56 @@
 </head>
 <body>
     <h1 class="titulo">Cadastrar Produto</h1><br>
-    <label>Produto:</label><br><br>
-        <input type="text" name="usuario" required/><br><br>
-    <label>Código</label><br><br>  
-        <input type="text" name="codigo" required/><br><br>
-    <label>Categoria</label><br><br>
-        <select>
-            <option></option>
-            <option>Camisa</option>
-            <option>Bermuda</option>
-            <option>Calçado</option>
-        </select><br><br>
-        <input type="submit" value="Enviar"/>
+    <ul class="menu">
+        <li class="plinha"><label>Produto:</label><br><br>
+            <input type="text" name="usuario" placeholder="Digite o Produto" required/><br><br></li>
+        <li class="slinha"><label>Código</label><br><br>
+            <input type="text" name="codigo" placeholder="Digite o Código" required/><br></li>
+        <li class="tlinha"><label>Categoria</label><br>    <br>
+                <select>
+                    <option></option>
+                    <option>Camisa</option>
+                    <option>Bermuda</option>
+                    <option>Calçado</option>
+                </select><br></li>
+        <li class="qlinha"><label>Valor</label><br><br> 
+            <input type="text" name="codigo" placeholder="Digite o Valor" required/><br></li>
+
+    </ul>
+    <table border="3">
+            <th class="celula">Produto</th>
+            <th class="celula">Código</th>
+            <th class="celula">Categoria</th>
+            <th class="celula">Valor (R$)</th>
+        <tr>
+            <td class="celula"><button class="mais">+</button></td>
+            <td class="celula"></td>
+            <td class="celula"></td>
+            <td class="celula"></td>
+        </tr>
+        <tr>
+            <td class="celula"><button class="menos">-</button>Camisa Galo</td>
+            <td class="celula">12345</td>
+            <td class="celula">Camisa</td>
+            <td class="celula">R$149,99</td>
+        </tr>
+        <tr>
+            <td class="celula"><button class="menos">-</button>Bermuda Nike</td>
+            <td class="celula">12345</td>
+            <td class="celula">Bermuda</td>
+            <td class="celula">R$119,90</td>           
+        </tr>
+        <tr>
+            <td class="celula"><button class="menos">-</button>Tênis Adidas</td>
+            <td class="celula">12345</td>
+            <td class="celula">Calçado</td>
+            <td class="celula">R$399,90</td>
+        </tr>
+    </table>
+    <br>
+    <p>
+        <input class="botao" type="submit" value="Enviar"/>
+        <input class="rbotao" type="reset" value="Excluir"/>
+    </p>
 </body>
 </html>
